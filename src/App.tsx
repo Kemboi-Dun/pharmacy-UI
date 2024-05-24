@@ -1,11 +1,17 @@
+import DealsWrap from "./components/DealsWrap";
 import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
 
 const App = () => {
-  return <div className="app-container">
-    <NavigationBar/>
-    <Header/>
-  </div>;
+  return (
+    <div className="app-container">
+      <NavigationBar />
+      <Header />
+      <div id="body-wrapper">
+        <DealsWrap />
+      </div>
+    </div>
+  );
 };
 
 export default App;

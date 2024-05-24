@@ -2,6 +2,8 @@ import React from "react";
 
 const NavigationBar = () => {
   return (
+    // transparent
+    // https://i.postimg.cc/nhm3rfrR/medicare-logo-removebg-preview.png
     <>
       <nav className="nav-wrapper">
         {/* logo */}
