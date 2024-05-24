@@ -56,10 +56,59 @@ const DealsContainer = () => {
   );
 };
 
+const DealsCards = () => {
+  return (
+    <div className="deals-cards-wrapper">
+      <div className="upload-card">
+        <div className="card-info">
+          <div className="info-container">
+            <p>Upload prescription to place order</p>
+            <span>Upload only .jpg,.png or .pdf files. Size limit is 15MB</span>
+          </div>
+
+          <i className="fa-solid fa-file-circle-check"></i>
+        </div>
+        <div className="card-buttons">
+          <>
+            <button>
+              <i className="fa-solid fa-file-circle-plus"></i>
+            </button>
+            <button>Order Via Prescription</button>
+          </>
+          <a href="/">How to order?</a>
+        </div>
+      </div>
+
+      <div className="consoltation-card">
+        <div className="card-description">
+          <div>
+            <p>Don't have a prescription?</p>
+            <span>Upload only .jpg,.png or .pdf files. Size limit is 15MB</span>
+          </div>
+
+          <span className="card-buttons">
+            <button>Start Consultations</button>
+            <button>
+              <i className="fa-solid fa-tv"></i>
+            </button>
+          </span>
+        </div>
+        <div className="card-image-wrapper">
+          <img
+            src="https://i.postimg.cc/63GH279v/photo-1651008376811-b90baee60c1f-removebg-preview.png"
+            alt="female-doctor-in-white"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const DealsWrap = () => {
   return (
     <div className="deals-wrap-container">
       <DealsContainer />
+      <DealsCards />
     </div>
   );
 };

@@ -439,9 +439,9 @@ body {
         border-radius: 1rem;
         overflow: hidden;
         // padding: 0.2rem 0;
-        .discoount-badge{
+        .discoount-badge {
           position: absolute;
-          top:1rem;
+          top: 1rem;
           right: 0;
           background: goldenrod;
           padding: 0.2rem 0.4rem;
@@ -522,6 +522,143 @@ body {
               font-weight: 700;
             }
           }
+        }
+      }
+    }
+  }
+
+  .deals-cards-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 60vh;
+    // background: teal;
+    padding: 1rem 0;
+    .upload-card {
+      flex: 1;
+      background: #e9ac13;
+      padding: 2rem;
+      border-radius: 2rem;
+      height: 100%;
+      .card-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1.5rem;
+        color: #212121;
+        border: 3.5px dotted #212121;
+        padding: 2rem;
+        // background: lime;
+        background: #f9f9f9;
+        .info-container {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p {
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+
+        i {
+          width: 100%;
+          text-align: center;
+          font-size: 4rem;
+        }
+      }
+
+      .card-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 1rem;
+        margin-top: 1rem;
+        button {
+          border: none;
+          border-radius: 1rem;
+          padding: 0.5rem 0.8rem;
+          color: #eeebeb;
+          background: #2f3030;
+          cursor: pointer;
+          transition: all 0.2s;
+          &:hover {
+            background: #191a1a;
+          }
+        }
+        a {
+          text-decoration: underline;
+          color: inherit;
+        }
+      }
+    }
+    .consoltation-card {
+      flex: 1;
+      background: #d06363fd;
+      padding: 2rem;
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 2rem;
+      height: 100%;
+
+      .card-description {
+        // flex:1;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // background: teal;
+        height: 80%;
+        p {
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+        span {
+          font-size: 12px;
+        }
+        .card-buttons {
+          width: 100%;
+          // background: lime;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          gap: 1rem;
+          padding: 0.4rem;
+        }
+        button {
+          border: none;
+          border-radius: 1rem;
+          padding: 0.5rem 0.8rem;
+          color: #eeebeb;
+          background: #2f3030;
+          cursor: pointer;
+          transition: all 0.2s;
+          &:hover {
+            background: #191a1a;
+          }
+        }
+      }
+
+      .card-image-wrapper {
+        // flex:1;
+        width: 100%;
+        // display: none;
+        height: 100%;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
         }
       }
     }
