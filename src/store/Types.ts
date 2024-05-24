@@ -11,3 +11,8 @@ export type productDealObj_type = {
   product_discount: number;
   product_rating: number;
 };
+
+export type brandObj_type = {
+  brandURL: string;
+  brand_name: string;
+};

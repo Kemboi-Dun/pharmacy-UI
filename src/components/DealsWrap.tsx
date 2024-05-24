@@ -4,9 +4,9 @@ import { productDealObj_type } from "../store/Types";
 
 const DealsContainer = () => {
   return (
-    <div className="deals-wrapper">
-      <div className="deals-header-section">
-        <h1 className="deals-header-title">Todays best deals for you!</h1>
+    <div className="deals-wrapper container-wrapper">
+      <div className="container-header-section">
+        <h1 className="container-header-title">Todays best deals for you!</h1>
         <a href="/">
           See all products <i className="fa-solid fa-arrow-right-long"></i>
         </a>

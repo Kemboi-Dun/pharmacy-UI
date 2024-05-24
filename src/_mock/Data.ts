@@ -68,3 +68,40 @@ export const productDeals = [
     product_rating: 4.0,
   },
 ];
+
+export const brands = [
+  {
+    brandURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/2378px-GSK_logo_2014.svg.png",
+    brand_name: "GSK",
+  },
+  {
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/de/e/ee/AstraZeneca_logo.svg",
+    brand_name: "Astrazeneca",
+  },
+  {
+    brandURL:
+      "https://1000logos.net/wp-content/uploads/2020/03/Novartis-Logo.png",
+    brand_name: "Novartis",
+  },
+  {
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png",
+    brand_name: "Johnson & Johnson",
+  },
+  {
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Merck_Logo.svg/1200px-Merck_Logo.svg.png",
+    brand_name: "Merck",
+  },
+  {
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pfizer_%282021%29.svg/2560px-Pfizer_%282021%29.svg.png",
+    brand_name: "Pfizer",
+  },
+  {
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sanofi-2022.svg/1200px-Sanofi-2022.svg.png",
+    brand_name: "Sanofi",
+  },
+];
