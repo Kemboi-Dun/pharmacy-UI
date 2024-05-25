@@ -99,11 +99,89 @@ const ProductsWrap = () => {
   );
 };
 
+const TrendingProductsCards = () => {
+  return (
+    <>
+      <ul className="cards-wrapper">
+        <li className="card-container">
+          <div className="card-info">
+            <div className="card-description">
+              <h4>Maternal Health and Comfort</h4>
+              <a href="/">
+                Browse All <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <div className="info-cto">
+              <h4>5%</h4>
+              <p>Cashback</p>
+            </div>
+          </div>
+          <div className="card-image">
+            <img
+              src="https://i.postimg.cc/MTY79Tkn/juan-encalada-SCte-CA0-Mf1-A-unsplash-1-removebg-preview.png"
+              alt="expectant-mother"
+            />
+          </div>
+        </li>
+
+        <li className="card-container">
+          <div className="card-info">
+            <div className="card-description">
+              <h4>Headache and Migraine Solutions</h4>
+              <a href="/">
+                Browse All <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <div className="info-cto">
+              <p>Flat</p>
+              <span>
+                <h4>10%</h4>
+                <p>Off</p>
+              </span>
+            </div>
+          </div>
+          <div className="card-image">
+            <img
+              src="https://i.postimg.cc/mrCNFj8N/Adobe-Stock-219863118-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </li>
+
+        <li className="card-container">
+          <div className="card-info">
+            <div className="card-description">
+              <h4>Cold and Flu Relief</h4>
+              <a href="/">
+                Browse All <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+            <div className="info-cto">
+              <p>Flat</p>
+              <span>
+                <h4>10%</h4>
+                <p>Off</p>
+              </span>
+            </div>
+          </div>
+          <div className="card-image">
+            <img
+              src="https://i.postimg.cc/8zqm59Bz/lady-sneeze-min-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </li>
+      </ul>
+    </>
+  );
+};
+
 const TrendingProducts = () => {
   return (
     <div className="tending-products-wrapper container-wrapper">
       <ProductsHeaderWrap />
       <ProductsWrap />
+      <TrendingProductsCards />
     </div>
   );
 };
