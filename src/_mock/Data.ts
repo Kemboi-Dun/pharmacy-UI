@@ -179,3 +179,41 @@ export const trendingProducts = [
     product_rating: 4.0,
   },
 ];
+
+export const babyFoodProducts = [
+  {
+    productURL:
+      "https://i.postimg.cc/sDsjw3dS/NAC-supplement-n-Acetyl-Cysteine-kenya-removebg-preview.png",
+    category: "Nutrition",
+    product_name: "Moflix Baby diaper 4pcs",
+    product_price: 640.0,
+    product_discount: 800.0,
+    product_rating: 4.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/KvfZWCxW/61-M-K84r-L5-L-SL1500-removebg-preview.png",
+    category: "Wellness",
+    product_name: "Mediterranean Fruits",
+    product_price: 1400.0,
+    product_discount: 0,
+    product_rating: 3.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/L8sHFvs8/71-QQEe-Ik-Iu-L-SL1500-removebg-preview.png",
+    category: "Medicine",
+    product_name: "Womens multi Vitamins A, Biotin-cranberry",
+    product_price: 800.0,
+    product_discount: 0,
+    product_rating: 4.2,
+  },
+  {
+    productURL: "https://i.postimg.cc/s2kySr4M/592352-removebg-preview.png",
+    category: "Healthcare",
+    product_name: "Bebelac Premature Milk formula",
+    product_price: 520.0,
+    product_discount: 0,
+    product_rating: 4.0,
+  },
+];

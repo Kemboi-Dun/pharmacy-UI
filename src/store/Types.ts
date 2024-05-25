@@ -25,3 +25,12 @@ export type trendingProductObj_type = {
   product_discount: number;
   product_rating: number;
 };
+
+export type babyProductObj_type = {
+  productURL: string;
+  category: string;
+  product_name: string;
+  product_price: number;
+  product_discount: number;
+  product_rating: number;
+};
