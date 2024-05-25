@@ -1,3 +1,5 @@
+import { flavorType } from "../store/Types";
+
 export const breadCrumbImages = [
   {
     imageURL:
@@ -215,5 +217,41 @@ export const babyFoodProducts = [
     product_price: 520.0,
     product_discount: 0,
     product_rating: 4.0,
+  },
+];
+
+export const Flavours: flavorType[] = [
+  {
+    id: 1,
+    header: "Cereal Honey Flavour",
+    title: "Cereal Healthy Food",
+    description:
+      "Cereal food offers many benefits that make it a healthy and nutrisious breakfast choice.",
+    benefits: ["Provides essential nutrients", "High in fiber", "Low in fat"],
+    price: 5400,
+    productImgURL:
+      "https://i.postimg.cc/MTn05nf6/cereal-box-design-mockup-23-2149424068-removebg-preview.png",
+  },
+  {
+    id: 2,
+    header: "Chocolate Flavour",
+    title: "Cereal Healthy Food",
+    description:
+      "Cereal food offers many benefits that make it a healthy and nutrisious breakfast choice.",
+    benefits: ["Provides essential nutrients", "High in fiber", "Low in fat"],
+    price: 5400,
+    productImgURL:
+      "https://i.postimg.cc/MTn05nf6/cereal-box-design-mockup-23-2149424068-removebg-preview.png",
+  },
+  {
+    id: 3,
+    header: "Oats Flavour",
+    title: "Cereal Healthy Food",
+    description:
+      "Cereal food offers many benefits that make it a healthy and nutrisious breakfast choice.",
+    benefits: ["Provides essential nutrients", "High in fiber", "Low in fat"],
+    price: 5400,
+    productImgURL:
+      "https://i.postimg.cc/MTn05nf6/cereal-box-design-mockup-23-2149424068-removebg-preview.png",
   },
 ];

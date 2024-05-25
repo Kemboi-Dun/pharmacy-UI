@@ -1,3 +1,4 @@
+import Flavour from "./components/Flavour";
 import BabyFood from "./components/BabyFood";
 import Brands from "./components/Brands";
 import DealsWrap from "./components/DealsWrap";
@@ -15,6 +16,7 @@ const App = () => {
         <Brands/>
         <TrendingProducts/>
         <BabyFood/>
+        <Flavour/>
       </div>
     </div>
   );

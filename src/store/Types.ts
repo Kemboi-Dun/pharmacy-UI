@@ -34,3 +34,13 @@ export type babyProductObj_type = {
   product_discount: number;
   product_rating: number;
 };
+
+export type flavorType = {
+  id:number;
+  header: string;
+  title: string;
+  description: string;
+  benefits: string[];
+  price: number;
+  productImgURL: string;
+};
