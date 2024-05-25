@@ -2,6 +2,7 @@ import Brands from "./components/Brands";
 import DealsWrap from "./components/DealsWrap";
 import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
+import TrendingProducts from "./components/TrendingProducts";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div id="body-wrapper">
         <DealsWrap />
         <Brands/>
+        <TrendingProducts/>
       </div>
     </div>
   );

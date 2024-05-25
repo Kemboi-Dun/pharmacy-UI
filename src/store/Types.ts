@@ -16,3 +16,12 @@ export type brandObj_type = {
   brandURL: string;
   brand_name: string;
 };
+
+export type trendingProductObj_type = {
+  productURL: string;
+  category: string;
+  product_name: string;
+  product_price: number;
+  product_discount: number;
+  product_rating: number;
+};

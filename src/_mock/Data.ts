@@ -71,7 +71,8 @@ export const productDeals = [
 
 export const brands = [
   {
-    brandURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/2378px-GSK_logo_2014.svg.png",
+    brandURL:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/GSK_logo_2014.svg/2378px-GSK_logo_2014.svg.png",
     brand_name: "GSK",
   },
   {
@@ -103,5 +104,78 @@ export const brands = [
     brandURL:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sanofi-2022.svg/1200px-Sanofi-2022.svg.png",
     brand_name: "Sanofi",
+  },
+];
+
+export const trendingProducts = [
+  {
+    productURL:
+      "https://i.postimg.cc/sDsjw3dS/NAC-supplement-n-Acetyl-Cysteine-kenya-removebg-preview.png",
+    category: "Vitamin",
+    product_name: "Gencell Collagne peptides + biotin & vitamin C",
+    product_price: 640.0,
+    product_discount: 800.0,
+    product_rating: 4.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/KvfZWCxW/61-M-K84r-L5-L-SL1500-removebg-preview.png",
+    category: "Healthcare",
+    product_name: "Nature's Bounty D3 10000",
+    product_price: 1400.0,
+    product_discount: 0,
+    product_rating: 3.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/L8sHFvs8/71-QQEe-Ik-Iu-L-SL1500-removebg-preview.png",
+    category: "Wellness",
+    product_name: "Vitamin D 1000 IU High Potency",
+    product_price: 800.0,
+    product_discount: 0,
+    product_rating: 4.2,
+  },
+  {
+    productURL: "https://i.postimg.cc/s2kySr4M/592352-removebg-preview.png",
+    category: "Vitamin",
+    product_name: "Physician's Daily Multivitamin + D3",
+    product_price: 520.0,
+    product_discount: 0,
+    product_rating: 4.0,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/sDsjw3dS/NAC-supplement-n-Acetyl-Cysteine-kenya-removebg-preview.png",
+    category: "Accessories",
+    product_name: "Savlon Liquid Antiseptic 1litre",
+    product_price: 640.0,
+    product_discount: 800.0,
+    product_rating: 4.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/KvfZWCxW/61-M-K84r-L5-L-SL1500-removebg-preview.png",
+    category: "Powder",
+    product_name: "ProtinexVanilla Delight,Nutritional Drink Mix",
+    product_price: 1400.0,
+    product_discount: 0,
+    product_rating: 3.5,
+  },
+  {
+    productURL:
+      "https://i.postimg.cc/L8sHFvs8/71-QQEe-Ik-Iu-L-SL1500-removebg-preview.png",
+    category: "Wellness",
+    product_name: "Zrocal Sachet 25",
+    product_price: 800.0,
+    product_discount: 0,
+    product_rating: 4.2,
+  },
+  {
+    productURL: "https://i.postimg.cc/s2kySr4M/592352-removebg-preview.png",
+    category: "Diaper",
+    product_name: "Twinkle Baby Diaper Extra Large 32pcs",
+    product_price: 520.0,
+    product_discount: 0,
+    product_rating: 4.0,
   },
 ];

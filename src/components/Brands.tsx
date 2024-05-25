@@ -11,6 +11,8 @@ const Brands = () => {
           See all <i className="fa-solid fa-arrow-right-long"></i>
         </a>
       </div>
+
+      
       <ul className="brands-cards-wrapper">
         {brands?.map((brand: brandObj_type) => (
           <li key={brand.brandURL}>
@@ -21,6 +23,7 @@ const Brands = () => {
           </li>
         ))}
       </ul>
+
     </div>
   );
 };

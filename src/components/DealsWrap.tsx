@@ -12,11 +12,11 @@ const DealsContainer = () => {
         </a>
       </div>
 
-      <ul className="products-deals-wrapper">
+      <ul className="products-section-wrapper">
         {productDeals?.map((product: productDealObj_type) => (
           <li key={product.product_name}>
             {product.product_discount > 0 && (
-              <div className="discoount-badge">
+              <div className="discount-badge">
                 {((product.product_discount - product.product_price) /
                   product.product_price) *
                   100}{" "}
