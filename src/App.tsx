@@ -5,6 +5,7 @@ import DealsWrap from "./components/DealsWrap";
 import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
 import TrendingProducts from "./components/TrendingProducts";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <TrendingProducts/>
         <BabyFood/>
         <Flavour/>
+        <Testimonials/>
       </div>
     </div>
   );

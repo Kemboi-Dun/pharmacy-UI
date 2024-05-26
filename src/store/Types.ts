@@ -36,11 +36,17 @@ export type babyProductObj_type = {
 };
 
 export type flavorType = {
-  id:number;
+  id: number;
   header: string;
   title: string;
   description: string;
   benefits: string[];
   price: number;
   productImgURL: string;
+};
+export type testimonialType = {
+  id: number;
+  title: string;
+  description: string;
+  username: string;
 };

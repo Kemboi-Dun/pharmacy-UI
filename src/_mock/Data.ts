@@ -255,3 +255,35 @@ export const Flavours: flavorType[] = [
       "https://i.postimg.cc/MTn05nf6/cereal-box-design-mockup-23-2149424068-removebg-preview.png",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    title: "I had a great check-up at Medicare Health Service",
+    description:
+      "I have been a patient at your Medicare healthcare service for over a year now, and I must say that  am extremely satisfied with the level of services offered.",
+    username: "Darlene Robertson",
+  },
+  {
+    id: 2,
+    title: "I recently underwent a procedure t Medicare Health Service",
+    description:
+      "I have been a patient at your Medicare healthcare service for over a year now.",
+    username: "Brooklyn Simmons",
+  },
+  {
+    id: 3,
+    title: "I had a virtual appointment with Medicare healthcare service",
+    description:
+      "I have been a patient at your Medicare healthcare service for over a year now, and I must say that  am extremely satisfied",
+    username: "Jacob Jones",
+  },
+  {
+    id: 4,
+    title:
+      "I recently visited Medicare healthcare service for a routine check-up",
+    description:
+      "The staff took all the necessary precautions to ensure safety during the pandemic and  my doctor provided clear explanations about my health.",
+    username: "Robert Fox",
+  },
+];
