@@ -1,6 +1,5 @@
-import * as React from "react";
 import { motion } from "framer-motion";
-import { mix } from "@popmotion/popcorn";
+
 import { flavorType } from "../store/Types";
 
 interface flavourCardProps {
@@ -24,7 +23,7 @@ const FlavorCard = (props: flavourCardProps) => {
           <ul>
             {falvour.benefits?.map((benefit: string, index) => (
               <div key={index}>
-                <li >
+                <li>
                   <i className="fa-regular fa-hand-point-right"></i>
                   <p>{benefit}</p>
                 </li>
@@ -48,15 +47,3 @@ const FlavorCard = (props: flavourCardProps) => {
   );
 };
 export default FlavorCard;
-
-// export const ContentPlaceholder = () => (
-//   <motion.div
-//     variants={{ collapsed: { scale: 0.8 }, open: { scale: 1 } }}
-//     transition={{ duration: 0.8 }}
-//     className="content-placeholder"
-//   >
-
-//       <FlavorCard falvour={falvour}  key={falvour.header}/>
-
-//   </motion.div>
-// );

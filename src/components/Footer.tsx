@@ -1,4 +1,4 @@
-import React from "react";
+ 
 
 type footerLinkType = {
   card_title: string;

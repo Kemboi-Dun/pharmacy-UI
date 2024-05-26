@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { brands } from "../_mock/Data";
 import { brandObj_type } from "../store/Types";
 

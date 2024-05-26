@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { testimonials } from "../_mock/Data";
 import { testimonialType } from "../store/Types";
 

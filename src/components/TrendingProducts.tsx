@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { trendingProducts } from "../_mock/Data";
 import { trendingProductObj_type } from "../store/Types";
 
