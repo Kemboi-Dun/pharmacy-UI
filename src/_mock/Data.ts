@@ -287,3 +287,37 @@ export const testimonials = [
     username: "Robert Fox",
   },
 ];
+
+export const Questions = [
+  {
+    id: 1,
+    question: "How do I start online consultation with doctors on Medicare?",
+    answer: "To start an online consultation with doctors on Medicare, first create an account on our platform. Once registered, you can browse available doctors, choose one that fits your needs, and schedule a consultation. You can connect with the doctor via video call, chat, or phone call at the scheduled time.",
+  },
+  {
+    id: 2,
+    question: "Are your online doctors qualified?",
+    answer: "Yes, all our online doctors are fully qualified and licensed to practice medicine. They undergo a thorough verification process to ensure they meet the high standards required to provide medical consultations on our platform.",
+  },
+  {
+    id: 3,
+    question: "Is online doctor consultation safe and secured on Medicare?",
+    answer: "Yes, online doctor consultations on Medicare are safe and secure. We use advanced encryption and security measures to protect your personal information and ensure that your consultations are private and confidential.",
+  },
+  {
+    id: 4,
+    question: "What happens if I don't get a response from a doctor?",
+    answer: "If you don't get a response from a doctor, please contact our support team. They will assist you in resolving the issue and, if necessary, help you schedule another consultation with a different doctor.",
+  },
+  {
+    id: 5,
+    question: "What is the online doctors consultations?",
+    answer: "Online doctor consultations are virtual appointments where you can speak with a qualified medical professional via video call, chat, or phone call. This allows you to receive medical advice, diagnoses, and prescriptions from the comfort of your home.",
+  },
+  {
+    id: 6,
+    question: "Can I do a free online doctor consultation on Medicare?",
+    answer: "Currently, we offer free initial consultations for certain conditions and promotions. However, most consultations may have a fee. Please check our website or contact our support team for the latest information on free consultation availability.",
+  },
+  
+]

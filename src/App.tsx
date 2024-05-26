@@ -8,6 +8,7 @@ import TrendingProducts from "./components/TrendingProducts";
 import Testimonials from "./components/Testimonials";
 import AdvertCards from "./components/AdvertCards";
 import Download from "./components/Download";
+import QandA from "./components/QandA";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Flavour/>
         <Testimonials/>
         <AdvertCards/>
+        <QandA/>
         <Download/>
       </div>
     </div>

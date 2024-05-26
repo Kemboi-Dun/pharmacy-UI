@@ -50,3 +50,9 @@ export type testimonialType = {
   description: string;
   username: string;
 };
+
+export type questionType ={
+  id:number,
+  question:string,
+  answer:string,
+}
