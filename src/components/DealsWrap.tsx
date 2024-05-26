@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { productDeals } from "../_mock/Data";
 import { productDealObj_type } from "../store/Types";
 

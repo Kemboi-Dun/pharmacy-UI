@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { breadCrumbImages } from "../_mock/Data";
 import { imageObj_type } from "../store/Types";
 
