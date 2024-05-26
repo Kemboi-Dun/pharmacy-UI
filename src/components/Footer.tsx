@@ -102,12 +102,20 @@ const Footer = () => {
         </div>
 
         <div className="footer-logo">
-        <img src=" https://i.postimg.cc/6qVKVts5/Screenshot-from-2024-05-26-17-09-56-removebg-preview.png" alt="medicare-logo" />
+          <img
+            src=" https://i.postimg.cc/6qVKVts5/Screenshot-from-2024-05-26-17-09-56-removebg-preview.png"
+            alt="medicare-logo"
+          />
         </div>
 
         <div className="policy-footer">
           <p>©{thisYear} Medicare</p>
-          <p>Designed by <a href="https://musemind.agency/" target="_blank">MUSEMIND</a></p>
+          <p>
+            Designed by{" "}
+            <a href="https://musemind.agency/" target="_blank">
+              MUSEMIND
+            </a>
+          </p>
         </div>
       </div>
     </div>
