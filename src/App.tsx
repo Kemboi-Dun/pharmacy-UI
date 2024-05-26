@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
 import TrendingProducts from "./components/TrendingProducts";
 import Testimonials from "./components/Testimonials";
+import AdvertCards from "./components/AdvertCards";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <BabyFood/>
         <Flavour/>
         <Testimonials/>
+        <AdvertCards/>
       </div>
     </div>
   );
