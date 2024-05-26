@@ -9,6 +9,7 @@ import Testimonials from "./components/Testimonials";
 import AdvertCards from "./components/AdvertCards";
 import Download from "./components/Download";
 import QandA from "./components/QandA";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <AdvertCards/>
         <QandA/>
         <Download/>
+        <Footer/>
       </div>
     </div>
   );

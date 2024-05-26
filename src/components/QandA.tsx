@@ -70,6 +70,8 @@ const QandA = () => {
   const [expanded, setExpanded] = useState<false | number>(1);
   return (
     <div className="question-container container-wrapper">
+      <h1>Got questions ?</h1>
+
       {Questions.map((question: questionType) => (
         <Question
           question={question}

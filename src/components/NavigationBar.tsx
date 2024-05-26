@@ -4,11 +4,14 @@ const NavigationBar = () => {
   return (
     // transparent
     // https://i.postimg.cc/nhm3rfrR/medicare-logo-removebg-preview.png
+
+    // default logo 
+    // https://i.postimg.cc/RC7GFYKG/medicare-logo.png
     <>
       <nav className="nav-wrapper">
         {/* logo */}
         <div className="nav-logo">
-          <img src="https://i.postimg.cc/RC7GFYKG/medicare-logo.png" alt="" />
+          <img src="https://i.postimg.cc/6qVKVts5/Screenshot-from-2024-05-26-17-09-56-removebg-preview.png" alt="Medicare logo" />
           <hr />
         </div>
         <ul className="center-nav-container">
